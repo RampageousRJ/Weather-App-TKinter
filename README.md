@@ -22,13 +22,13 @@ Before running the application, make sure you have the following:
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/weather-app-tkinter.git
+    git clone https://github.com/RampageousRJ/Weather-App-TKinter.git
     ```
 
 2. **Navigate to the project directory:**
 
     ```bash
-    cd weather-app-tkinter
+    cd 'Weather-App-TKinter'
     ```
 
 3. **Install the required dependencies:**
