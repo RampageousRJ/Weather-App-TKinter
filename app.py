@@ -45,7 +45,7 @@ class App(Tk):
         self.location_label = Label(self,text="Enter City Name: ",font=("Monocraft",10),bg="light blue").grid(row=0,column=0,pady=(40,5),padx=(20,0))
         self.location_text = Text(self,bg='light cyan',width=40,height=2)
         self.location_text.grid(row=1,column=0,columnspan=3,pady=(0,20),padx=(20,0),sticky="nsew")
-        self.button2 = Button(self,text='Submit',command=self.checkWeather,background='deep sky blue',width=10).grid(row=2,column=0,sticky="nsew",padx=(20,0))
+        self.button2 = Button(self,text='Check Weather',command=self.checkWeather,background='deep sky blue',width=10).grid(row=2,column=0,sticky="nsew",padx=(20,0))
         self.button1 = Button(self,text='Clear',command=self.clearText,background='deep sky blue',width=5).grid(row=2,column=1,sticky="nsew",padx=(20,0))
         self.button0 = Button(self,text='Exit',command=self.clearText,background='deep sky blue',width=5).grid(row=2,column=2,sticky="nsew",padx=(20,0))
 
